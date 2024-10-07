@@ -3234,9 +3234,9 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
+			background-image: url("../../images/portfolio\ bg.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/formal.png");
+			background-size: contain,								contain,														contain;
+			background-position: cover,								cover,														cover;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
@@ -3258,7 +3258,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #000080;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3493,7 +3493,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #ffffff;
+		color: #F5F5DC;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3523,11 +3523,11 @@ input, select, textarea {
 	}
 
 		#header input, #header select, #header textarea {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #F5F5DC;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3537,24 +3537,24 @@ input, select, textarea {
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#header blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #F5F5DC;
 		}
 
 		#header code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #F5F5DC;
 		}
 
 		#header hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #F5F5DC;
 		}
 
 		#header .logo {
@@ -3606,7 +3606,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #F5F5DC;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3615,7 +3615,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(158, 145, 73, 0.363);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3628,7 +3628,7 @@ input, select, textarea {
 	}
 
 		#nav ul.divided li {
-			border-top-color: #ffffff;
+			border-top-color: #F5F5DC;
 		}
 
 		#nav ul.icons li a.icon:hover:before {
@@ -3636,7 +3636,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
+			box-shadow: inset 0 0 0 2px #F5F5DC;
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
@@ -3644,11 +3644,11 @@ input, select, textarea {
 		}
 
 		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #F5F5DC;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3658,24 +3658,24 @@ input, select, textarea {
 			}
 
 		#nav strong, #nav b {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #ffffff;
+			color: #F5F5DC;
 		}
 
 		#nav blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #F5F5DC;
 		}
 
 		#nav code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #F5F5DC;
 		}
 
 		#nav hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #F5F5DC;
 		}
 
 		#nav ul.links {
@@ -3722,7 +3722,7 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #F5F5DC;
 				}
 
 					#nav ul.links li.active a {
@@ -3756,7 +3756,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #F5F5DC;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
